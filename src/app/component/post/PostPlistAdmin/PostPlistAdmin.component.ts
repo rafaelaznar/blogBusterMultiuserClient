@@ -23,11 +23,11 @@ export class PostPlistAdminComponent implements OnInit {
   constructor(
     private oPostService: PostService
   ) {
-    
-   }
+    this.getPage();
+  }
 
   ngOnInit() {
-    this.getPage();
+
   }
 
   getPage() {

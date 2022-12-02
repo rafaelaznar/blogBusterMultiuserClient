@@ -14,6 +14,7 @@ import { DropdownRegisterPageComponent } from './component/shared/dropdown-regis
 import { PaginationUnroutedComponent } from './component/shared/pagination-unrouted/pagination-unrouted.component';
 import { PaginationService } from './service/pagination.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PostService } from './service/Post.service';
 
 
 
@@ -35,7 +36,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
   ],
   providers: [   
-    PaginationService 
+    PaginationService,
+    PostService
   ],
   bootstrap: [AppComponent]
 })
