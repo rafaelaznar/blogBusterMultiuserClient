@@ -9,9 +9,9 @@ import { HomeComponent } from './component/home/home.component';
 import { MenuComponent } from './component/menu/menu.component';
 
 import { PostPlistAdminComponent } from './component/post/PostPlistAdmin/PostPlistAdmin.component';
-import { SearchUnroutedComponent } from './component/search-unrouted/search-unrouted.component';
-import { DropdownRegisterPageComponent } from './component/dropdown-register-page/dropdown-register-page.component';
-import { PaginationUnroutedComponent } from './component/pagination-unrouted/pagination-unrouted.component';
+import { SearchUnroutedComponent } from './component/shared/search-unrouted/search-unrouted.component';
+import { DropdownRegisterPageComponent } from './component/shared/dropdown-register-page/dropdown-register-page.component';
+import { PaginationUnroutedComponent } from './component/shared/pagination-unrouted/pagination-unrouted.component';
 import { PaginationService } from './service/pagination.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
